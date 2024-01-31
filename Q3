@@ -1,0 +1,3 @@
+scrambled_word = input()
+new_word = scrambled_word[2:] + scrambled_word[:2]
+print(new_word)
